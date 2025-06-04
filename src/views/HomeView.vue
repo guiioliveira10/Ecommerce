@@ -1,6 +1,14 @@
+<script setup>
+import { ref } from 'vue';
+import ProductList from '../components/ProductList.vue';
+
+const searchTerm = ref('');
+</script>
+
 <template>
-  <div class="text-center mt-10">
-    <h1 class="text-3xl font-bold">Página Inicial</h1>
-    <p>Listagem de produtos aqui</p>
-  </div>
+  <main class="min-h-screen flex flex-col bg-gradient-to-b from-emerald-50 to-white">
+    <div class="max-w-7xl mx-auto px-4 py-8">
+      <ProductList :searchTerm="searchTerm" />
+    </div>
+  </main>
 </template>
