@@ -52,7 +52,7 @@ de um e-commerce virtual linkado com uma API DummyJSON
 
 ## Como rodar o projeto localmente
 
-- git clone
+- git clone https://github.com/guiioliveira10/Ecommerce
 - cd ecommerce
 - npm install
 - npm run dev
@@ -61,12 +61,6 @@ de um e-commerce virtual linkado com uma API DummyJSON
 
 - Node.js
 - npm
-
-## Passo a passo como clonar
-
-- git clone https://github.com/guiioliveira10/Ecommerce
-- npm install
-- npm run dev
 
 ## link do youtube
 
