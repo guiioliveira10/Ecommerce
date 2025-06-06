@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import ProductList from '../components/ProductList.vue';
+import ProductList from '../views/ProductList.vue';
 
 const searchTerm = ref('');
 </script>

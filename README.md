@@ -1,29 +1,49 @@
-# ecommerce
+## Ecommerce March 25TH
 
-This template should help get you started developing with Vue 3 in Vite.
+## Descrição do projeto
 
-## Recommended IDE Setup
+Esse projeto front-end desenvolvida com Vue.js é uma demonstração 
+de um e-commerce virtual linkado com uma API DummyJSON
+[https://dummyjson.com/docs/products]
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Screenshots
 
-## Customize configuration
+### Ordenagem dos produtos
+<img src="src/assets/screenshots/1.png"
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Menu Categorias
+<img src="src/assets/screenshots/2.png"
 
-## Project Setup
+### Carrinho
+<img src="src/assets/screenshots/3.png"
 
-```sh
-npm install
-```
+### Paginação
+<img src="src/assets/screenshots/4.png"
 
-### Compile and Hot-Reload for Development
+### Detalhes do produto
+<img src="src/assets/screenshots/5.png"
 
-```sh
-npm run dev
-```
+### Buscar Produto
+<img src="src/assets/screenshots/6.png"
 
-### Compile and Minify for Production
+### Categorias
+<img src="src/assets/screenshots/7.png"
 
-```sh
-npm run build
-```
+### Pedido Finalizado
+<img src="src/assets/screenshots/8.png"
+
+
+## Tecnologias Usadas
+
+- Vue.js
+- Axios
+- Vite
+- Tailwind
+
+## Passo a passo como clona
+
+
+
+##link do youtube
+
+##nome e ra

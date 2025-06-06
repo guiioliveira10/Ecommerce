@@ -8,7 +8,7 @@ export default {
     Navbar,
     Footer,
   },
- data() {
+    data() {
     return {
       termoBusca: "",
       cart: [],
@@ -18,10 +18,12 @@ export default {
     buscarProdutos(termo) {
       this.termoBusca = termo;
     },
+
     verDetalhes(produto) {
       this.$router.push(`/produto/${produto.id}`);
     },
-addToCart(product) {
+
+    addToCart(product) {
       const existingProduct = this.cart.find(item => item.id === product.id);
       if (existingProduct) {
         existingProduct.quantity += 1;
@@ -29,9 +31,11 @@ addToCart(product) {
         this.cart.push({ ...product, quantity: 1 });
       }
     },
+
     removeFromCart(productId) {
       this.cart = this.cart.filter(item => item.id !== productId);
     },
+
     updateQuantity(productId, newQuantity) {
       const product = this.cart.find(item => item.id === productId);
       if (product) {
@@ -39,13 +43,14 @@ addToCart(product) {
       }
     }
   },
-  provide() {
-    return {
-      cart: {
-        items: this.cart,
-        add: this.addToCart,
-        remove: this.removeFromCart,
-        update: this.updateQuantity
+
+    provide() {
+      return {
+        cart: {
+          items: this.cart,
+          add: this.addToCart,
+          remove: this.removeFromCart,
+          update: this.updateQuantity
       }
     };
   }
