@@ -6,31 +6,41 @@ Esse projeto front-end desenvolvida com Vue.js é uma demonstração
 de um e-commerce virtual linkado com uma API DummyJSON
 [https://dummyjson.com/docs/products]
 
+## Funcionalidades
+
+- Listagem dos produtos por API
+- Buscar produtos
+- Ordenação por preço ou nome
+- Detalhes dos produtos
+- Carrinho
+- Categorias
+- Paginação
+
 ## Screenshots
 
 ### Ordenagem dos produtos
-<img src="src/assets/screenshots/1.png"
+![Ordenagem dos produtos](src/assets/screenshots/1.png)
 
 ### Menu Categorias
-<img src="src/assets/screenshots/2.png"
+![Menu Categorias](src/assets/screenshots/2.png)
 
 ### Carrinho
-<img src="src/assets/screenshots/3.png"
+![Carrinho](src/assets/screenshots/3.png)
 
 ### Paginação
-<img src="src/assets/screenshots/4.png"
+![Paginação](src/assets/screenshots/4.png)
 
 ### Detalhes do produto
-<img src="src/assets/screenshots/5.png"
+![Detalhes](src/assets/screenshots/5.png)
 
 ### Buscar Produto
-<img src="src/assets/screenshots/6.png"
+![Buscar](src/assets/screenshots/6.png)
 
 ### Categorias
-<img src="src/assets/screenshots/7.png"
+![Categorias](src/assets/screenshots/7.png)
 
 ### Pedido Finalizado
-<img src="src/assets/screenshots/8.png"
+![Pedido Finalizado](src/assets/screenshots/8.png)
 
 
 ## Tecnologias Usadas
@@ -40,10 +50,28 @@ de um e-commerce virtual linkado com uma API DummyJSON
 - Vite
 - Tailwind
 
-## Passo a passo como clona
+## Como rodar o projeto localmente
+
+- cd ecommerce
+- npm run dev
+
+### Pré-requisitos
+
+- Node.js
+- npm
+
+## Passo a passo como clonar
+
+- git clone https://github.com/guiioliveira10/Ecommerce
+- npm install
+- npm run dev
+
+## link do youtube
+
+https://youtu.be/ZC1ebHGvdBk
 
 
+## Nome e RA
 
-##link do youtube
-
-##nome e ra
+Guilherme de Paula Oliveira - RA: 1991857
+Eduardo Santos - RA: 1989619
