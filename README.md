@@ -52,7 +52,9 @@ de um e-commerce virtual linkado com uma API DummyJSON
 
 ## Como rodar o projeto localmente
 
+- git clone
 - cd ecommerce
+- npm install
 - npm run dev
 
 ### Pré-requisitos
